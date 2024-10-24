@@ -20,5 +20,5 @@ test_that("fn_docalc works with masking global variable", {
 
   #this will fail beacuse I expect that fn_docalc will operate on the package's "measurements" variable, not the global one:
   #commented out so we pass check()
-  #expect_identical(tmp$value*100, res2$value)
+  #expect_identical(tmp1$value*100, res2$value)
 })

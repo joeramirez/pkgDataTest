@@ -9,6 +9,7 @@
 #'   ...
 #' }
 #' @source Joe Ramirez, test data for global variable issue
+#' @export
 
 
 measurements2 <- data.frame(id = c(1:20), value = runif(20))

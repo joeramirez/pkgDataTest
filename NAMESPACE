@@ -2,3 +2,4 @@
 
 export(fn_docalc)
 export(fn_docalc2)
+export(measurements2)
